@@ -16,12 +16,12 @@ def echo_message(message):
   bot.reply_to(message, message.text) 
   
   
-@app.route('/' + TOKEN, methods=['POST']) 
-def getMessage(): 
-  json_string = request.get_data().decode('utf-8') 
-  update = telebot.types.Update.de_json(json_string) 
-  bot.process_new_updates([update]) 
-  return "!", 200 
+#@app.route('/' + TOKEN, methods=['POST']) 
+#def getMessage(): 
+  #json_string = request.get_data().decode('utf-8') 
+  #update = telebot.types.Update.de_json(json_string) 
+  #bot.process_new_updates([update]) 
+  #return "!", 200 
   
   
 #@app.route("/") 
@@ -37,4 +37,8 @@ def hello_world():
   #return render_template("index.html")
 
 if __name__ == "__main__":
-  app.run(host="0.0.0.0",port=int(os.environ.get('PORT',5000))) 
+  print("okay")
+  app.run()
+  print("okay1")
+  bot.polling()
+  #app.run(host="0.0.0.0",port=int(os.environ.get('PORT',5000))) 
