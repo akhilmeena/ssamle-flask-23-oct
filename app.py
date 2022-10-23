@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 import telebot 
 
-TOKEN = '2109918986:AAHSLdqv_4CwQc8GFSSYTQShjSSHK8tutXs' 
+TOKEN = '2109918986:AAGoz-c4sw5zjtDeq9C2875GiV_4S4rQya4' 
 bot = telebot.TeleBot(TOKEN) 
 app = Flask(__name__) 
 #app = Flask(__name__)
@@ -36,9 +36,11 @@ def hello_world():
   return "kahsj djdk"
   #return render_template("index.html")
 
+bot.polling()
+
 if __name__ == "__main__":
   print("okay")
   app.run()
   print("okay1")
-  bot.polling()
+  #bot.polling()
   #app.run(host="0.0.0.0",port=int(os.environ.get('PORT',5000))) 
