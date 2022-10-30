@@ -33,8 +33,8 @@ def echo_message(message):
 
 @app.route("/home")
 def hello_world():
-  return "kahsj djdk"
-  #return render_template("index.html")
+  #return "kahsj djdk"
+  return render_template("Index.html")
 
 bot.polling()
 
