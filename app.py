@@ -31,10 +31,10 @@ def echo_message(message):
   #return "!", 200
 
 
-@app.route("/home")
+@app.route("/")
 def hello_world():
   #return "kahsj djdk"
-  return render_template("Index.html")
+  return render_template("index.html")
 
 bot.polling()
 
