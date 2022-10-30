@@ -1,0 +1,184 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  }
+
+.Header{
+  width: auto;
+  background-image: url('/src/Background1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  /*
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  border-bottom-color: 2px solid black;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  text-overflow: ellipsis;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  */
+}
+.Page-Title{
+  color: #d11515df;
+  display: inline;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #f31b1b;
+  animation: TitleAnimate 3s infinite;
+}
+
+@keyframes TitleAnimate{
+  0% {
+    color: green;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.First-Letter{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.CommentTt{
+  font-size: 10px;
+  color: white;
+  padding: 0px 0px 10px 20px;
+  text-decoration: underline;
+}
+
+.Content{
+  padding-top: 10px;
+  height: 100px;
+  height: 500px;
+  background-image: url('/src/Image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.CryptoNewsOut{
+  /*background-image: url('/src/Image3.jpg');*/
+  height: auto;
+  padding: 10px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+  
+.CryptoNewsTitle{
+  color: #c92727;
+  text-shadow: 1px 1px 1px #c92727;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  
+}
+  
+.CryptoNewsIn{
+  /*text-align: center;*/
+  color: white;
+  background-color: #fbfafb31;
+  border: 0.1px solid black;
+  -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+  backdrop-filter: blur(8px);
+}
+
+.Footer{
+  background-color: #000000;
+  height: auto;
+}
+
+.AboutInvestment{
+  padding: 0px 60px;
+}
+
+.TitleInevstment{
+  padding: 5px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  color: #b212c3;
+  text-shadow: 1px 1px 2px #fbfbfb;
+}
+
+.SummaryInvestment{
+  color: #0e0e0ed9;
+  text-shadow: 1px 1px 2px #f31b1b;
+}
+
+.WebMenu div{
+  display: inline-block;
+  border: 0.1px dotted black;
+  margin: 5px;
+  padding: 2px;
+}
+
+.WebMenu div:hover{
+  font-weight: bold;
+  color: red;
+  border-top: 1px solid red;
+  border-bottom:1px solid red;
+}
+.WebMenu{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Copyright{
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.D-Watch1{
+  text-align: center;
+  padding: 10px;
+}
+  
+.D-Watch{
+  color: #f9fab6;
+  text-shadow: 2px 2px 2px red;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.ExampleDesign{
+  margin: 2px;
+  /*text-align: center;
+  align-items: center;
+  justify-content: center;*/
+}
+.BlockDesign{
+  border-radius: 30px;
+  margin: 1px auto;
+  padding: 7px;
+  align-self: center;
+  height: auto;
+  width: 210px;
+  text-align: center;
+  background-color: #8E35EF;
+}
+.ExampleDesignImg{
+  height: 200px;
+  margin-bottom: -15px;
+  padding-bottom: 2px;
+}
+.ExampleDesignImgTitle{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
