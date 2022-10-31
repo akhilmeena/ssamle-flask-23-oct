@@ -8,7 +8,7 @@ body {
 
 .Header{
   width: auto;
-  background-image: url('../src/Background1.jpg');
+  background-image: url('/static/src/Background1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
