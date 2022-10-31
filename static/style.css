@@ -8,11 +8,12 @@ body {
 
 .Header{
   width: auto;
-  background-image: url({{ url_for('static', filename='src/Background1.jpg')}});
+  background-image: url('../src/Background1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
   /*
+  background-image: url({{ url_for('static', filename='src/Background1.jpg')}});
   filter: blur(8px);
   -webkit-filter: blur(8px);
   border-bottom-color: 2px solid black;
