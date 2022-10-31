@@ -8,6 +8,7 @@ body {
 
 .Header{
   width: auto;
+  background: url("https://te.legra.ph/file/cab69a2fb63c65fcd316c.jpg");
   background-image: url('https://te.legra.ph/file/cab69a2fb63c65fcd316c.jpg');
   background-size: cover;
   background-repeat: no-repeat;
